@@ -31,7 +31,13 @@ export const MyContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      <UsingClassLifeCycleComponent />
+      {/* <UsingClassLifeCycleComponent/>
+      <ClassStateExample/> */}
+      {/* <CounterUsingClassState/> */}
+      {/* <UsingClassLifeCycleComponent/>
+      <CounterIncrementDecrement/> */}
+      <UsingUseEffect/>
+      <Component1 />
     </div>
   );
 }
