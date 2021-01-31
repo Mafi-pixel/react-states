@@ -5,10 +5,11 @@ import React, { useState } from "react";
 function CounterUsingHooksUseState() {
   // Use Array destructuring and useState
   const [count, setCount] = useState(0);
+  const addone= setCount  (count + 1);
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Count: {count}</button>
+      <button onClick={addone}>Count: {count}</button>
     </div>
   );
 }

@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 
 // Class Based State Example
-import ClassStateExample from "./Components/ClassStateExample/ClassStateExample";
+import ClassStateExample from "./Component/ClassStateExample/ClassStateExample";
+// import MyCounterComponent from "./Components/MyCounterComponent";
 
 // Counter using class
 import CounterUsingClassState from "./Components/ClassStateExample/CounterUsingClassState";
@@ -13,7 +14,7 @@ import UsingClassLifeCycleComponent from "./Components/ClassStateExample/UsingCl
 // Counter using useState
 import CounterUsingHooksUseState from "./Components/UseState/CounterUsingHooksUseState";
 
-// useState callback example
+// // useState callback example
 import CounterIncrementDecrement from "./Components/UseState/CounterIncrementDecrement";
 
 // useEffect
@@ -31,13 +32,9 @@ export const MyContext = React.createContext();
 function App() {
   return (
     <div className="App">
-      {/* <UsingClassLifeCycleComponent/>
-      <ClassStateExample/> */}
-      {/* <CounterUsingClassState/> */}
-      {/* <UsingClassLifeCycleComponent/>
-      <CounterIncrementDecrement/> */}
-      <UsingUseEffect/>
-      <Component1 />
+      
+        <>ClassStateExample</>
+     
     </div>
   );
 }
@@ -46,7 +43,7 @@ function App() {
 //   return (
 //     <div className="App">
 //       <MyContext.Provider value={"The data you want to pass"}>
-//         <Component1 />
+//         <Component1/>
 //       </MyContext.Provider>
 //     </div>
 //   );
